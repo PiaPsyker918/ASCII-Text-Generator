@@ -1,15 +1,15 @@
 # ASCII-Text-Generator
-Generates ASCII text from the regular.
+Генерирует ASCII-текст из обычного текста.
 
 <img width="1211" height="250" alt="ASCIITEXTGENERATORLogo" src="https://github.com/user-attachments/assets/3bf2acac-b1e6-411d-9782-c93731c02f6e" />
 
-```(The script is currently in early access. If you see a bug please text me.)```
+```(Скрипт в настоящее время находится в раннем доступе. Если вы обнаружили ошибку, пожалуйста, напишите мне.)```
 
-# Translations
+# Переводы
 
-Russian: [Russian](https://github.com/PiaPsyker918/ASCII-Text-Generator/tree/russian/)
+Английская версия: [English](https://github.com/PiaPsyker918/ASCII-Text-Generator/tree/main/)
 
-# Requirements
+# Требования
 
 ```
 
@@ -17,19 +17,19 @@ pyfiglet
 
 ```
 
-# Installation
+# Установка
 
-1. Install the ZIP-file
+1. Установите ZIP-файл
 
-2. Open CMD and write:
+2. Откройте CMD и напишите:
  
 ```pip install pyfiglet```
 
-3. Next steps in "How to use"
+3. Следующие шаги в разделе "Как использовать"
 
-# How to use
+# Как использовать
 
-In cmd write
+В командной строке напишите
 
 Windows:
 
@@ -43,10 +43,10 @@ Linux:
 $ ./Generator.py
 ```
 
-Then, enter the text,
-and choice the font
+Затем введите текст
+и выберите шрифт
 
-# How it works
+# Как это работает
 
 ```
                         _|_|  _|            _|              _|
@@ -58,28 +58,28 @@ _|              _|                      _|
 _|          _|_|                    _|_|
 ```
 
-```pyfiglet is a full port of FIGlet (http://www.figlet.org/) into pure python. It takes ASCII text and renders it in ASCII art fonts (like the title above, which is the 'block' font).``` ~ Autor Pyfiglet (cjones)
+```pyfiglet - это полный порт FIGlet (http://www.figlet.org/) на чистый Python. Он принимает ASCII-текст и отображает его в шрифтах ASCII-арта (как заголовок выше, который использует шрифт 'block').``` ~ Автор Pyfiglet (cjones)
 
-It's actually very simple, not like with ASCII-Video-Generator, because nothing is processed by machine vision or anything like that. It works out of the box.
+Это на самом деле очень просто, в отличие от ASCII-Video-Generator, потому что ничего не обрабатывается компьютерным зрением или чем-то подобным. Он работает "из коробки".
 
-# Packaging status
+# Статус упаковки
 
 <img width="205" height="1285" alt="image" src="https://github.com/user-attachments/assets/4bb1c143-446c-40eb-acd6-47212eabd303" />
 
-# Simple Use
+# Простое использование
 
 ```
 from pyfiglet import Figlet
 f = Figlet(font='slant')
-print(f.renderText('text to render'))
+print(f.renderText('текст для преобразования'))
 ```
-or
+или
 ```
 import pyfiglet
-f = pyfiglet.figlet_format("text to render", font="slant")
+f = pyfiglet.figlet_format("текст для преобразования", font="slant")
 print(f)
 ```
 
-# Contact
+# Контакты
 
 [<img width="100" height="100" alt="telegram-circle-icon-for-web-design-free-png" src="https://github.com/user-attachments/assets/1e4c0cb3-a856-417b-86d1-29354b2d92a8" />](https://t.me/Girlanda228)
